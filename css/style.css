@@ -50,10 +50,14 @@ article input[type="button"]{
 }
 section{
     display: flex;
-    
+
     padding: 10px;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+section p{
+  min-width: 280;
+  width: 70vh;
 }
 section img{
     border-radius: 5px;
@@ -67,6 +71,7 @@ article h1{
 
 article h3{
     color: #7f888f;
+    font-weight: normal;
 }
 article p{
     padding-right: 5px;
@@ -81,12 +86,13 @@ footer h2{
     font-weight: none;
 }
 .low{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
 }
 .box{
     display: flex;
+
 }
 .box i{
     color: #f56a6a;
@@ -101,4 +107,14 @@ footer h2{
 }
 .content h3{
     margin-top: 0;
+}
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+
+    border-width: 1px;
 }
